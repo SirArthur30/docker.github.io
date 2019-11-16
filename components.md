@@ -1,4 +1,4 @@
----
+  ---
 description: Components page
 title: Components
 hide_from_sitemap: true
