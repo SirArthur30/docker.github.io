@@ -1,0 +1,23 @@
+Error: Could not create PIO Core Virtual Environment. Please create it manually -> http://bit.ly/pio-core-virtualenv 
+ Error: Virtualenv Create: Traceback (most recent call last):
+  File "C:\Users\themi\.platformio\.cache\tmp-6600GKXVrFlOE0B9\virtualenv-16.7.5\virtualenv.py", line 2632, in <module>
+    main()
+  File "C:\Users\themi\.platformio\.cache\tmp-6600GKXVrFlOE0B9\virtualenv-16.7.5\virtualenv.py", line 870, in main
+    symlink=options.symlink,
+  File "C:\Users\themi\.platformio\.cache\tmp-6600GKXVrFlOE0B9\virtualenv-16.7.5\virtualenv.py", line 1156, in create_environment
+    install_python(home_dir, lib_dir, inc_dir, bin_dir, site_packages=site_packages, clear=clear, symlink=symlink)
+  File "C:\Users\themi\.platformio\.cache\tmp-6600GKXVrFlOE0B9\virtualenv-16.7.5\virtualenv.py", line 1445, in install_python
+    copy_required_modules(home_dir, symlink)
+  File "C:\Users\themi\.platformio\.cache\tmp-6600GKXVrFlOE0B9\virtualenv-16.7.5\virtualenv.py", line 1337, in copy_required_modules
+    copyfile(filename, dst_filename, symlink)
+  File "C:\Users\themi\.platformio\.cache\tmp-6600GKXVrFlOE0B9\virtualenv-16.7.5\virtualenv.py", line 426, in copyfile
+    copy_file_or_folder(src, dest, symlink)
+  File "C:\Users\themi\.platformio\.cache\tmp-6600GKXVrFlOE0B9\virtualenv-16.7.5\virtualenv.py", line 401, in copy_file_or_folder
+    shutil.copytree(src, dest, symlink)
+  File "C:\Users\themi\AppData\Local\Programs\Python\Python37-32\lib\shutil.py", line 359, in copytree
+    raise Error(errors)
+shutil.Error: [('C:\\Users\\themi\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\importlib\\resources.py', 'C:\\Users\\themi\\.platformio\\penv\\lib\\importlib\\resources.py', "[Errno 2] No such file or directory: 'C:\\\\Users\\\\themi\\\\.platformio\\\\penv\\\\lib\\\\importlib\\\\resources.py'"), ('C:\\Users\\themi\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\importlib\\util.py', 'C:\\Users\\themi\\.platformio\\penv\\lib\\importlib\\util.py', "[Errno 2] No such file or directory: 'C:\\\\Users\\\\themi\\\\.platformio\\\\penv\\\\lib\\\\importlib\\\\util.py'"), ('C:\\Users\\themi\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\importlib\\_bootstrap.py', 'C:\\Users\\themi\\.platformio\\penv\\lib\\importlib\\_bootstrap.py', "[Errno 2] No such file or directory: 'C:\\\\Users\\\\themi\\\\.platformio\\\\penv\\\\lib\\\\importlib\\\\_bootstrap.py'"), ('C:\\Users\\themi\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\importlib\\_bootstrap_external.py', 'C:\\Users\\themi\\.platformio\\penv\\lib\\importlib\\_bootstrap_external.py', "[Errno 2] No such file or directory: 'C:\\\\Users\\\\themi\\\\.platformio\\\\penv\\\\lib\\\\importlib\\\\_bootstrap_external.py'"), ('C:\\Users\\themi\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\importlib\\__init__.py', 'C:\\Users\\themi\\.platformio\\penv\\lib\\importlib\\__init__.py', "[Errno 2] No such file or directory: 'C:\\\\Users\\\\themi\\\\.platformio\\\\penv\\\\lib\\\\importlib\\\\__init__.py'")]
+
+Using base prefix 'C:\\Users\\themi\\AppData\\Local\\Programs\\Python\\Python37-32'
+
+	at t.value (c:\Users\themi\.vscode-insiders\extensions\platformio.platformio-ide-1.9.3\node_modules\platformio-node-helpers\dist\index.js:1:32319)
